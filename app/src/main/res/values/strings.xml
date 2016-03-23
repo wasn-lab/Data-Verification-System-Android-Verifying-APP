@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RF Data Verifier</string>
+
+    <string name="connect">Connect to DB</string>
+    <string name="verify">Verify</string>
+    <string name="clear">Clear</string>
+
+
+    <string name="ip1">140</string>
+    <string name="ip2">115</string>
+    <string name="ip3">202</string>
+    <string name="ip4">179</string>
+    <string name="port">8700</string>
+    <string name="default_SP_ID">101502537</string>
+
+    <string name="attribute01">Data</string>
+    <string name="attribute02">Tag ID</string>
+
+    <string name="msg">Operation Message</string>
+    <string name="no">no.</string>
+
+</resources>

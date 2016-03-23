@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/gap_Large">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:elevation="2dp"
+            android:background="@drawable/myrect">
+
+            <TextView
+                android:id="@+id/print_no"
+                android:layout_width="@dimen/general_comp_height"
+                android:layout_height="@dimen/general_comp_height"
+                android:layout_margin="@dimen/gap"
+                android:background="@drawable/circular"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="@string/no"
+                android:textSize="@dimen/general_title_size"
+                android:textColor="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/print_TID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/gap_Large"
+                    android:textSize="@dimen/general_title_size"
+                    android:hint="Tag ID"/>
+
+                <TextView
+                    android:id="@+id/print_TData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/gap_Large"
+                    android:textSize="@dimen/small_text_size"
+                    android:textColor="@color/msg"
+                    android:hint="Tag ID"/>
+
+                <TextView
+                    android:id="@+id/print_TSG"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/gap_Large"
+                    android:textSize="@dimen/general_text_size"
+                    android:hint="Tag Signature"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gap_Large" />
+
+    </LinearLayout>
+
+</LinearLayout>
